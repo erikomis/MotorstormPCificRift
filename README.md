@@ -8,6 +8,12 @@ time into C/C++, compiled with clang, and run on a D3D12 renderer that speaks RS
 
 Built on [ps3recomp](https://github.com/sp00nznet/ps3recomp).
 
+## Project metadata
+
+Project metadata for directories and tools lives in [`.recomp.json`](.recomp.json),
+following the [recomp.board specification](https://recomp.fyi/spec). Keep it
+updated when the project status, supported game version or target platforms change.
+
 ## Status
 
 It boots, it loads races, and you can drive a full race at a steady 30 fps.
